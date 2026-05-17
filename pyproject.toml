@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlb-stats"
+version = "0.1.0"
+description = "Fetch MLB team and player statistics into pandas"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "requests>=2.31",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mlb_stats*"]

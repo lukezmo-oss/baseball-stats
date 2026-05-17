@@ -1,5 +1,3 @@
-from mlb_stats.client import MLBClient
-
-DEFAULT_SEASON = 2026
+from mlb_stats.client import DEFAULT_SEASON, MLBClient
 
 __all__ = ["MLBClient", "DEFAULT_SEASON"]
