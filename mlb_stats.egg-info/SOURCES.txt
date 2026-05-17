@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+mlb_stats/__init__.py
+mlb_stats/client.py
+mlb_stats.egg-info/PKG-INFO
+mlb_stats.egg-info/SOURCES.txt
+mlb_stats.egg-info/dependency_links.txt
+mlb_stats.egg-info/requires.txt
+mlb_stats.egg-info/top_level.txt

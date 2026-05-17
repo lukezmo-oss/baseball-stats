@@ -8,7 +8,7 @@ from typing import Literal
 import pandas as pd
 import requests
 
-from mlb_stats import DEFAULT_SEASON
+DEFAULT_SEASON = 2026
 
 StatGroup = Literal["hitting", "pitching", "fielding"]
 BASE_URL = "https://statsapi.mlb.com/api/v1"
